@@ -1,0 +1,29 @@
+{
+  "name": "bartleby",
+  "version": "1.0.0",
+  "description": "A professional CLI invoice generator",
+  "main": "index.js",
+  "bin": {
+    "bartleby": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "invoice",
+    "cli",
+    "pdf",
+    "billing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5",
+    "pdfkit": "^0.13.0",
+    "svg-to-pdfkit": "^0.1.8"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
