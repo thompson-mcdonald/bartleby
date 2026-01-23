@@ -1,11 +1,15 @@
 {
-  "name": "bartleby",
+  "name": "bartleby-cli",
   "version": "1.0.0",
   "description": "A professional CLI invoice generator",
   "main": "index.js",
   "bin": {
     "bartleby": "index.js"
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "test": "node index.js"
   },
