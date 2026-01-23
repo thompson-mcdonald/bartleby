@@ -4,7 +4,7 @@
   "description": "A professional CLI invoice generator",
   "main": "index.js",
   "bin": {
-    "bartleby": "./index.js"
+    "bartleby": "index.js"
   },
   "scripts": {
     "test": "node index.js"
@@ -15,7 +15,7 @@
     "pdf",
     "billing"
   ],
-  "author": "",
+  "author": "Jacob Thompson",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
@@ -25,5 +25,17 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thompson-mcdonald/bartleby.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thompson-mcdonald/bartleby/issues"
+  },
+  "homepage": "https://github.com/thompson-mcdonald/bartleby#readme"
 }
